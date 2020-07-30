@@ -1,0 +1,393 @@
+body {
+    margin: 0;
+}
+
+#topLeft {
+    margin-top: 25px;
+    position: fixed;
+    left: 1%;
+}
+
+#topCenter {
+    margin-top: 25px;
+    position: fixed;
+    left: 45%;
+}
+
+#topRight {
+    margin-top: 25px;
+    position: fixed;
+    right: 1%;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 975px;
+    background-image: url("./images/CB-06.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.columna {
+    width: 33%;
+}
+
+#title {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#projects {
+    display: flex;
+    margin-left: 5%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+#about {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-top: 20px;
+    height: 50%;
+}
+
+#coffee {
+    display: flex;
+    margin-left: 5%;
+    align-items: flex-end;
+    height: 50%;
+    width: 50%;
+    margin-top: -50px;
+}
+
+#page {
+    display: flex;
+    margin-left: 5%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 50%;
+    margin-top: -50px;
+    margin-right: 2%;
+}
+
+#main {
+    height: 7900px;
+    background-color: black;
+}
+
+#description {
+    margin-block-start: 0;
+    width: 55%;
+    margin-left: 10%;
+    padding-top: 150px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+a {
+    color: white;
+    margin-left: 10%;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#plantein {
+    margin-top: 200px;
+    float: left;
+    width: 650px;
+    margin-left: 10%;
+}
+
+#branding {
+    float: right;
+    margin-top: 325px;
+    margin-right: 15%;
+}
+
+#imageBranding {
+    width: 650px;
+}
+
+#lip {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+#liptember {
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+
+#clocky {
+    width: 500px;
+    float: left;
+    margin-top: 300px;
+    margin-left: 15%;
+}
+
+#logoGif {
+    float: right;
+    margin-top: 200px;
+    margin-right: 10%;
+}
+
+#voostGif {
+    width: 750px;
+}
+
+#mageThumbs {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+#mageze {
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+
+#delta {
+    float: left;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+#deltaTitle {
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+#deltaProduct {
+    width: 725px;
+    float: right;
+    margin-top: 475px;
+    margin-right: 10%;
+}
+
+#coffeeContainer {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#coffe {
+    margin-top: 200px;
+    width: 100%;
+}
+
+#coffeBrand {
+    float: left;
+    font-size: 1.5em;
+}
+
+#moreWork {
+    float: right;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#containerWhite {
+    height: 3600px;
+}
+
+#feed {
+    font-weight: lighter;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-size: 2.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagesContainer {
+    display: inline-flex;
+}
+
+#magensiumContainer {
+    margin-left: 10%;
+    margin-top: 300px;
+    width: 40%;
+}
+
+h3 {
+    line-height: 45px;
+    font-size: 1.6em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+.readMore {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-left: 0;
+}
+
+#magnesium {
+    width: 600px;
+}
+
+#crowdContainer {
+    margin-right: 10%;
+    margin-top: 100px;
+    width: 40%;
+}
+
+#crowd {
+    width: 625px;
+}
+
+#beginningsContainer {
+    margin-left: 10%;
+    margin-top: 150px;
+    width: 39%;
+}
+
+#beginnings {
+    width: 600px;
+}
+
+#peachContainer {
+    margin-left: 1%;
+    margin-top: 150px;
+    width: 40%;
+}
+
+#peach {
+    width: 600px;
+}
+
+#andyContainer {
+    margin-left: 10%;
+    margin-top: 225px;
+    width: 40%;
+}
+
+#andy {
+    width: 600px;
+}
+
+#kawsContainer {
+    margin-left: 1%;
+    margin-top: 150px;
+    width: 40%;
+}
+
+#kaws {
+    width: 600px;
+}
+
+#footer {
+    height: 1050px;
+    background-color: black;
+}
+
+#titleFooter {
+    padding-top: 250px;
+    width: 70%;
+    font-size: 2.5em;
+}
+
+#containerTitleFooter {
+    margin-left: 10%;
+    width: 50%;
+}
+
+#containerFooter {
+    display: inline-flex;
+    margin-left: 10%;
+    margin-top: 100px;
+    width: 90%;
+}
+
+#business {
+    width: 40%;
+}
+
+#newBusiness {
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#touch {
+    font-size: 1.5em;
+}
+
+#phone {
+    font-size: 1.5em;
+}
+
+#location {
+    width: 50%;
+    margin-top: 25px;
+}
+
+#level {
+    font-size: 1.5em;
+}
+
+#melbourne {
+    font-size: 1.5em;
+}
+
+#connected {
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+#connect {
+    font-size: 1.5em;
+    text-decoration: underline white;
+}
+
+#socials1 {
+    font-size: 1.5em;
+}
+
+#socials2 {
+    font-size: 1.5em;
+}
+
+h4 {
+    margin-left: 10%;
+    margin-top: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+@media (max-width: 1400px) {
+    #plantein {
+        width: 450px;
+    }
+
+    #imageBranding {
+        width: 450px;
+    }
+}
