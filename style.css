@@ -180,6 +180,12 @@ a {
     font-size: 1.5em;
 }
 
+#deltaTitle2 {
+    visibility: hidden;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
 #deltaProduct {
     width: 725px;
     float: right;
@@ -196,7 +202,7 @@ a {
     margin-top: 200px;
     width: 100%;
 }
-
+ 
 #coffeBrand {
     float: left;
     font-size: 1.5em;
@@ -226,9 +232,16 @@ a {
 }
 
 #magensiumContainer {
-    margin-left: 10%;
     margin-top: 300px;
-    width: 40%;
+    width: 50%;
+}
+
+#magensiumContainer > h3 {
+    margin-left: 5%;
+}
+
+#magensiumContainer > a {
+    margin-left: 5%;
 }
 
 h3 {
@@ -249,10 +262,18 @@ h3 {
 
 #magnesium {
     width: 600px;
+    margin-left: 10%;
+}
+
+#magensiumContainer > h3 {
+    margin-left: 10%;
+}
+
+#magensiumContainer > a {
+    margin-left: 10%;
 }
 
 #crowdContainer {
-    margin-right: 10%;
     margin-top: 100px;
     width: 40%;
 }
@@ -262,43 +283,67 @@ h3 {
 }
 
 #beginningsContainer {
-    margin-left: 10%;
     margin-top: 150px;
-    width: 39%;
+    width: 50%;
 }
 
 #beginnings {
     width: 600px;
+    margin-left: 10%;
+}
+
+#beginningsContainer > h3 {
+    margin-left: 10%;
+}
+
+#beginningsContainer > a {
+    margin-left: 10%;
 }
 
 #peachContainer {
-    margin-left: 1%;
     margin-top: 150px;
     width: 40%;
 }
 
 #peach {
     width: 600px;
+    margin-left: 5%;
+}
+
+#peachContainer > h3 {
+    margin-left: 5%;
+}
+
+#peachContainer > a {
+    margin-left: 5%;
 }
 
 #andyContainer {
-    margin-left: 10%;
     margin-top: 225px;
-    width: 40%;
+    width: 50%;
 }
 
 #andy {
     width: 600px;
+    margin-left: 10%;
+}
+
+#andyContainer > h3 {
+    margin-left: 10%;
+}
+
+#andyContainer > a {
+    margin-left: 10%;
 }
 
 #kawsContainer {
-    margin-left: 1%;
     margin-top: 150px;
     width: 40%;
 }
 
 #kaws {
     width: 600px;
+    margin-left: 5%;
 }
 
 #footer {
@@ -379,10 +424,81 @@ h4 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+} 
+
+
+@media (max-width: 1450px) {
+    #main {
+        height: 6500px;
+    }
+
+    #description {
+        width: 60%;
+        font-size: 2.2em;
+    }
+
+    #plantein {
+        width: 500px;
+    }
+
+    #imageBranding {
+        width: 500px;
+        margin-left: 5%;
+    }
+
+    #titlePlantein {
+        margin-left: 5%;
+    }
+
+    #clocky {
+        width: 450px;
+        margin-left: 10%;
+    }
+
+    #voostGif {
+        width: 550px;
+        height: 700px;
+    }
+
+    #deltaImage {
+        width: 500px;
+    }
+
+    #deltaProduct {
+        width: 550px;
+    }
+
+    #magnesium {
+        width: 500px;
+    }
+
+    #crowd {
+        width: 475px;
+        height: 700px;
+    }
+
+    #beginnings {
+        width: 500px;
+    }
+
+    #peach {
+        width: 500px;
+    }
+
+    #andy {
+        width: 500px;
+    }
+
+    #kaws {
+        width: 520px;
+    }
+
 }
+@media (max-width: 1350px) {
+    #main {
+        height: 6500px;
+    }
 
-
-@media (max-width: 1400px) {
     #plantein {
         width: 450px;
     }
@@ -390,4 +506,937 @@ h4 {
     #imageBranding {
         width: 450px;
     }
+
+    #clocky {
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    #voostGif {
+        width: 500px;
+        height: 700px;
+    }
+
+    #delta {
+        margin-left: 5%;
+    }
+
+    #deltaImage {
+        width: 450px;
+    }
+
+    #deltaProduct {
+        width: 450px;
+    }
+
+    #magnesium {
+        width: 450px;
+    }
+
+    #crowdContainer {
+        margin-top: 150px;
+    }
+
+    #crowd {
+        width: 425px;
+        height: 600px;
+    }
+
+    #beginnings {
+        width: 450px;
+    }
+
+    #peach {
+        width: 450px;
+    }
+
+    #andy {
+        width: 450px;
+    }
+
+    #kaws {
+        width: 470px;
+    }
+
+@media (max-width: 1200px) {
+    #header {
+        height: 700px;
+        background-image: url("./images/CB-06.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+    }
+
+    #description {
+        width: 75%;
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    a {
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    #main {
+        height: 5700px;
+    }
+
+    #plantein {
+        margin-left: 5%;
+        width: 400px;
+    }
+
+    #branding {
+        margin-right: 10%;
+    }
+
+    #imageBranding {
+        width: 400px;
+    }
+
+    #clocky {
+        width: 350px;
+        margin-left: 5%;
+    }
+
+    #logoGif {
+        float: right;
+        margin-top: 200px;
+        margin-right: 5%;
+    }
+
+    #voostGif {
+        width: 500px;
+        height: 650px;
+    }
+
+    #deltaImage {
+        width: 450px;
+    }
+
+    #deltaProduct {
+        width: 450px;
+        margin-right: 3%;
+    }
+
+    #containerWhite {
+        height: 3300px;
+    }
+
+    #magnesium {
+        width: 400px;
+    }
+
+    #crowdContainer {
+        margin-top: 150px;
+    }
+
+    #crowd {
+        width: 400px;
+        height: 550px;
+    }
+
+    #beginnings {
+        width: 400px;
+    }
+
+    #peach {
+        width: 400px;
+    }
+
+    #andy {
+        width: 400px;
+    }
+
+    #kaws {
+        width: 420px;
+    }
+
+    #footer {
+        height: 800px;
+    }
+
+    #containerTitleFooter {
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    #titleFooter {
+        font-size: 1.75em;
+        padding-top: 100px;
+    }
+
+    #business {
+        width: 60%;
+    }
+
+    #containerFooter {
+        margin-left: 5%;
+    }
+
+    #connected {
+        margin-left: 5%;
+    }
+
+    h4 {
+        margin-left: 5%;
+    }
 }
+@media (max-width: 1000px) {
+    #header {
+        height: 625px;
+        background-image: url("./images/CB-06.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+    }
+
+    #description {
+        width: 75%;
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    a {
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    #main {
+        height: 5250px;
+    }
+
+    #plantein {
+        margin-left: 5%;
+        width: 400px;
+    }
+
+    #branding {
+        margin-right: 5%;
+    }
+
+    #imageBranding {
+        width: 400px;
+    }
+
+    #clocky {
+        width: 350px;
+        margin-left: 5%;
+    }
+
+    #logoGif {
+        float: right;
+        margin-top: 200px;
+        margin-right: 5%;
+    }
+
+    #voostGif {
+        width: 450px;
+        height: 550px;
+    }
+
+    #deltaImage {
+        width: 400px;
+    }
+
+    #deltaProduct {
+        width: 400px;
+        margin-right: 3%;
+        margin-top: 200px;
+    }
+
+    #containerWhite {
+        height: 3300px;
+    }
+
+    #magensiumContainer {
+        margin-top: 150px;
+    }
+
+    #magnesium {
+        width: 400px;
+        height: 450px;
+    }
+
+    #crowdContainer {
+        margin-top: 150px;
+    }
+
+    #crowd {
+        width: 400px;
+        height: 550px;
+    }
+
+    #beginnings {
+        width: 400px;
+    }
+
+    #peach {
+        width: 400px;
+    }
+
+    #andy {
+        width: 400px;
+    }
+
+    #kaws {
+        width: 420px;
+    }
+
+    #footer {
+        height: 825px;
+    }
+
+    #containerTitleFooter {
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    #titleFooter {
+        font-size: 1.75em;
+        padding-top: 100px;
+    }
+
+    #business {
+        width: 60%;
+    }
+
+    #containerFooter {
+        margin-left: 5%;
+    }
+
+    #connected {
+        margin-left: 5%;
+    }
+
+    h4 {
+        margin-left: 5%;
+    }
+}
+@media (max-width: 900px) {
+    #header {
+        height: 550px;
+        background-image: url("./images/CB-06.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+    }
+    #topRight {
+        margin-right: 7%;
+    }
+
+    #description {
+        width: 75%;
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    a {
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    #main {
+        height: 5000px;
+    }
+
+    #plantein {
+        margin-left: 5%;
+        width: 400px;
+    }
+
+    #branding {
+        margin-right: 5%;
+    }
+
+    #imageBranding {
+        width: 400px;
+    }
+
+    #clocky {
+        width: 350px;
+        margin-left: 5%;
+    }
+
+    #logoGif {
+        float: right;
+        margin-top: 200px;
+        margin-right: 5%;
+    }
+
+    #voostGif {
+        width: 450px;
+        height: 550px;
+        margin-left: 5%;
+    }
+
+    #deltaImage {
+        width: 400px;
+    }
+
+    #deltaProduct {
+        width: 400px;
+        margin-right: 3%;
+        margin-top: 200px;
+    }
+
+    #containerWhite {
+        height: 3300px;
+    }
+
+    #magensiumContainer {
+        margin-top: 150px;
+    }
+
+    #magnesium {
+        width: 375px;
+        height: 425px;
+        margin-left: 5%;
+    }
+
+    #magensiumContainer > h3 {
+        margin-left: 5%;
+    }
+    
+    #magensiumContainer > a {
+        margin-left: 5%;
+    }
+
+    #crowdContainer {
+        margin-top: 150px;
+    }
+
+    #crowd {
+        width: 370px;
+        height: 480px;
+        margin-left: 5%;
+    }
+
+    #crowdContainer > h3 {
+        margin-left: 5%;
+    }
+
+    #crowdContainer > a {
+        margin-left: 5%;
+    }
+
+    #beginnings {
+        width: 350px;
+    }
+
+    #peach {
+        width: 350px;
+    }
+
+    #andy {
+        width: 350px;
+    }
+
+    #kaws {
+        width: 380px;
+        margin-left: 5%;
+        margin-top: 15px;
+
+    }
+
+    #footer {
+        height: 825px;
+    }
+
+    #containerTitleFooter {
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    #titleFooter {
+        font-size: 1.75em;
+        padding-top: 100px;
+    }
+
+    #business {
+        width: 60%;
+    }
+
+    #containerFooter {
+        margin-left: 5%;
+    }
+
+    #connected {
+        margin-left: 5%;
+    }
+
+    h4 {
+        margin-left: 5%;
+    } 
+}   
+
+@media (max-width: 850px) {
+    #main {
+        height: 6750px;
+    }
+
+    #containerWhite {
+        height: 3500px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #header {
+        height: 450px;
+        background-image: url("./images/CB-06.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+    }
+
+    #description {
+        width: 75%;
+        margin-left: 5%;
+        font-size: 1.75em;
+        line-height: 50px;
+        font-size: 2em;
+    }
+
+    a {
+        margin-left: 5%;
+        font-size: 1.75em;
+    }
+
+    #main {
+        height: 8050px;
+    }
+
+    #plantein {
+        margin-left: 5%;
+        width: 90%;
+        float: none;
+        margin-top: 100px;
+    }
+
+    #branding {
+        float: none;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    #imageBranding {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #lip {
+        margin-top: 150px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #liptember {
+        margin-left: 5%;
+    }
+
+    #clocky {
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 5%;
+        float: none;
+    }
+
+    #logoGif {
+        float: none;
+        margin-top: 100px;
+        margin-right: 5%;
+    }
+
+    #logoGif > h1 {
+        margin-left: 5%;
+    }
+
+    #mageze {
+        margin-left: 5%;
+    }
+
+    #voostGif {
+        width: 95%;
+        height: 100%;
+        margin-left: 5%;
+        float: none;
+    }
+
+    #mageThumbs {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 150px;
+    }
+
+    #delta {
+        float: none;
+        margin-left: 0;
+    }
+
+    #deltaImage {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #deltaProduct {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0;
+        margin-top: 0;
+        float: none;
+    }
+
+    #deltaTitle {
+        visibility: hidden;
+    }
+
+    #deltaTitle2 {
+        visibility: visible;
+        margin-left: 5%;
+    }
+
+    #coffeeContainer {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    #coffe {
+        margin-top: 150px;
+        margin-left: 5%;
+    }
+
+    #coffeBrand {
+        margin-left: 5%;
+    }
+
+    #containerWhite {
+        height: 7000px;
+    }
+
+    .imagesContainer {
+        display: block;
+    }
+
+    #magensiumContainer {
+        margin-left: 0;
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    #magnesium {
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    #magensiumContainer > h3 {
+        margin-left: 5%;
+    }
+
+    .readMore {
+        margin-left: 5%;
+    }
+
+    #crowdContainer {
+        margin-top: 75px;
+        width: 100%;
+    }
+
+    #crowd {
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    #crowdContainer > h3 {
+        margin-left: 5%;
+    }
+
+    #beginningsContainer {
+        margin-left: 0;
+        margin-top: 75px;
+        width: 100%;
+    }
+
+    #beginnings {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #beginningsContainer > h3 {
+        margin-left: 5%;
+    }
+
+    #peachContainer {
+        margin-top: 75px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #peach {
+        width: 90%;
+    }
+
+    #andyContainer {
+        width: 100%;
+        margin-top: 75px;
+        margin-left: 0;
+    }
+
+    #andy {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #andyContainer > h3 {
+        margin-left: 5%;
+    }
+
+    #kawsContainer {
+        margin-top: 75px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #kaws {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #kawsContainer > h3 {
+        margin-left: 5%;
+    }
+
+    #footer {
+        height: 1000px;
+    }
+
+    #containerTitleFooter {
+        width: 50%;
+    }
+
+    #titleFooter {
+        font-size: 1.75em;
+        padding-top: 100px;
+    }
+
+    #business {
+        width: 60%;
+        margin-bottom: 100px;
+    }
+
+    #containerFooter {
+        display: block;
+        margin-top: 50px;
+    }
+
+    h4 {
+        margin-left: 10%;
+    } 
+}
+
+@media (max-width: 775px) {
+    #main {
+        height: 7850px;
+    }
+
+    #containerWhite {
+        height: 6900px;
+    }
+}
+@media (max-width: 750px) {
+    #main {
+        height: 7700px;
+    }
+
+    #containerWhite {
+        height: 6750px;
+    }
+}
+
+@media (max-width: 725px) {
+    #main {
+        height: 7470px;
+    }
+
+    #containerWhite {
+        height: 6750px;
+    }
+}
+
+@media (max-width: 700px) {
+    #main {
+        height: 7300px;
+    }
+
+    #containerWhite {
+        height: 6550px;
+    }
+}
+
+@media (max-width: 675px) {
+    #main {
+        height: 7175px;
+    }
+
+    #containerWhite {
+        height: 6400px;
+    }
+}
+
+@media (max-width: 650px) {
+    #header {
+        height: 300px;
+    }
+
+    #main {
+        height: 7000px;
+    }
+
+    #containerWhite {
+        height: 6250px;
+    }
+}
+
+@media (max-width: 625px) {
+    #main {
+        height: 6775px;
+    }
+    #containerWhite {
+        height: 6100px;
+    }
+}
+@media (max-width: 600px) {
+    #main {
+        height: 6575px;
+    }
+    #containerWhite {
+        height: 6050px;
+    }
+}
+
+@media (max-width: 575px) {
+    #main {
+        height: 6400px;
+    }
+    #containerWhite {
+        height: 5950px;
+    }
+}
+
+@media (max-width: 550px) {
+    #main {
+        height: 6100px;
+    }
+
+    #topCenter {
+        left: 35%;
+    }
+
+    #description {
+        width: 90%;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    #containerWhite {
+        height: 5850px;
+    }
+
+    #footer {
+        height: 900px;
+    }
+
+    #containerTitleFooter {
+        width: 75%;
+    }
+
+    #titleFooter {
+        font-size: 1.5em;
+    }
+
+    #business {
+        margin-bottom: 50px;
+    }
+
+    #location {
+        width: 100%;
+    }
+
+    #level {
+        font-size: 1.3em;
+    }
+
+    #melbourne {
+        font-size: 1.3em;
+    }
+
+    #connect {
+        font-size: 1.25em;
+    }
+
+    #socials1 {
+        font-size: 1.25em;
+    }
+
+    #socials2 {
+        font-size: 1.25em;
+    }
+
+    h4 {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    #main {
+        height: 5700px;
+    }
+    #containerWhite {
+        height: 5700px;
+    }
+}
+@media (max-width: 475px) {
+    #main {
+        height: 5600px;
+    }
+    #containerWhite {
+        height: 5600px;
+    }
+}
+
+@media (max-width: 450px) {
+    #main {
+        height: 5350px;
+    }
+    #containerWhite {
+        height: 5500px;
+    }
+}
+
+@media (max-width: 425px) {
+    #main {
+        height: 5250px;
+    }
+}
+
+@media (max-width: 400px) {
+    #header {
+        height: 250px;
+    }
+
+    #main {
+        height: 5100px;
+    }
+
+    #containerWhite {
+        height: 5500px;
+    }
+
+    #footer {
+        height: 800px;
+    }
+}
+} 
